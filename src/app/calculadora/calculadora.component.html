@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<div class="calc">    
+    <div class="card textoSal">
+        <div class="card-header text-center">CALCULADORA</div>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <input [(ngModel)]='numero1' type="number" name="numero1" class="form-control">
+                            <input [(ngModel)]='numero2' type="number" name="numero2" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row op">
+                        <div class="col">
+                            <button class="btn btn-outline-primary" (click)="suma()" >+</button>
+                            <button class="btn btn-outline-success" (click)="resta()" >-</button>
+                        </div>
+                    </div>
+                    <div class="row op">
+                        <div class="col">
+                            <button class="btn btn-outline-danger" (click)="multiplicar()" >X</button>
+                            <button class="btn btn-outline-warning" (click)="dividir()" >/</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-outline-dark btn-block" (click)="modulo()" >%</button>
+                            <button class="btn btn-outline-danger btn-block" (click)="reset()" >Reset</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card-footer">
+                    <div class="textoRes">
+                        <h4>  {{valoresIncorrectos ? "Divisor incorrecto" : resultado}} </h4>
+                    </div>
+                </div>
+    </div>
+</div>

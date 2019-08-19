@@ -1,0 +1,25 @@
+.anchoContenedor {
+    width: 20%;
+}
+
+.op button {
+    width: 50%;
+    height: 100%;
+}
+
+.textoRes {
+    text-align: center;
+}
+
+.textoSal {
+    width: 33.333%;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+    background-color: #7E85DB; 
+    height: 100vh;
+}
