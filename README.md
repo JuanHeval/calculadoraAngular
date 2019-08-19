@@ -1,3 +1,14 @@
+# Funcionalidad
+
+En la ruta ./src/app/calculadora/ se encuentran los componentes con la funcionalidad y el diseño de la aplicación.
+- Archivo calculadora.component.css se encuentran algunos estilos del diseño de la calculadora.
+- Archivo calculadora.components.ts se encuentran las funciones que resuelven las operaciones matemáticas requeridas.
+- Archivo calculadora.component.html se encuentra el código HTML y los llamados a las funciones desde las etiquetas establecidas, además se encuentra la implementación de bootstrap como framework front-end para mejorar el diseño.
+
+En la aplicación existen dos campos de texto en donde el usuario debe añadir los números que desea operar y abajo de estos campos se encuentran los botones con los operadores correspondientes, al final de este cuadro debe aparecer el resultado de la operación deseada.
+
+
+
 # Calculadora
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
